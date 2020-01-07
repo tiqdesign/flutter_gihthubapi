@@ -81,7 +81,7 @@ class _HomeState extends State<Home> {
                   CircleAvatar(
                     backgroundColor: Colors.transparent,
                     radius:30.0,
-                    backgroundImage: NetworkImage('https://upload.wikimedia.org/wikipedia/commons/5/58/Octocat_GitHub_Mascot.png'
+                    backgroundImage: AssetImage('assets/logo.png'
                     ),
                   ),
                   SizedBox(width: 10.0,),
